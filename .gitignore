@@ -1,5 +1,31 @@
 
-node_modules/
+
 .env
 .DS_Store
 *.log" > .gitignore
+# Node modules folder
+node_modules/
+
+# Logs
+npm-debug.log*
+
+
+# Environment variable files (DO NOT commit sensitive data)
+.env
+
+
+# Optional: npm package-lock file (only ignore if not tracking dependencies)
+package-lock.json
+
+
+
+# OS-generated files
+.DS_Store     
+ # Windows thumbnail cache
+
+# IDE and editor settings
+.vscode/       
+# Temporary files
+*.log
+*.tmp
+*.swp
